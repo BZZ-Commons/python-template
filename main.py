@@ -3,7 +3,7 @@ def calculate():
     calculates the total
     :return: None
     """
-    price = 15.75
+    price = 14.75
     quantity = 3  # TODO change quantity to 5
     print(f'Total: {price * quantity}')
 
