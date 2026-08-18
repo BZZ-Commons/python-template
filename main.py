@@ -1,3 +1,6 @@
+"""Beispiel-Skript des Templates: rechnet einen Gesamtpreis aus."""
+
+
 def calculate():
     """
     calculates the total
