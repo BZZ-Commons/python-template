@@ -24,7 +24,7 @@ reports=no
 # evaluation=10.0 - ((float(5 * error + warning + refactor + convention) / statement) * 10)
 
 # errors only (beginner-friendly)
-evaluation = max(0, min(10, 10 - 20 * (float(error) / max(statement, 1))))
+# evaluation = max(0, min(10, 10 - 20 * (float(error) / max(statement, 1))))
 
 # errors and warnings only (intermediate)
 evaluation = max(0, min(10, 10 - 20 * (float(4*error + warning) / max(statement, 1))))
